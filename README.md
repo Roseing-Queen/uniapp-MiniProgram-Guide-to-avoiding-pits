@@ -47,7 +47,7 @@ This repo is a collection of:
 ├── examples/       # 小程序 & uni-app 示例（可选）
 ├── screenshots/    # 踩坑截图
 └── README.md
-
+```
 ## 🛠 如何贡献 / How to Contribute
 
 欢迎 PR！如果你也踩过坑，别自己默默流泪，来一起写进来吧。
