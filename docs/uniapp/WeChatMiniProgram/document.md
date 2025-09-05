@@ -32,3 +32,14 @@ Class Switching: When switching classes, ensure the switching class is after the
 
 微信小程序的变量不能有多个不同的逻辑复用会导致页面无法正常渲染（哪怕是临时变量也不行
 WeChat Mini Program variables cannot be reused with multiple different logics, which will cause the page to not render properly (even temporary variables are not allowed)
+
+注意微信小程序的模拟器上部分状态下disply:flex和正常web的不会一致（具体场景正在进行验证）
+Note that in some states of the WeChat applet simulator, the display:flex will not be consistent with the normal web (specific scenarios are being verified)
+
+微信小程序的模拟器上的canvas是不会随着页面的滚动而滚动的（实机测试没有这个问题）
+The canvas on the WeChat applet simulator does not scroll as the page scrolls (there is no such problem in the actual machine test)
+
+
+
+
+
