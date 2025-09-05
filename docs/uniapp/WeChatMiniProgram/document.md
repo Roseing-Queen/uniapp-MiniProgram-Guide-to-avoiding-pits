@@ -29,3 +29,6 @@ Updating Variables: Any variable related to page updates (especially in uniapp) 
 
 类切换顺序要注意
 Class Switching: When switching classes, ensure the switching class is after the base class; otherwise, the new class may refuse to work for reasons only WeChat knows.
+
+微信小程序的变量不能有多个不同的逻辑复用会导致页面无法正常渲染（哪怕是临时变量也不行
+WeChat Mini Program variables cannot be reused with multiple different logics, which will cause the page to not render properly (even temporary variables are not allowed)
