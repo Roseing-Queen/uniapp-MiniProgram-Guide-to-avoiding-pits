@@ -39,7 +39,5 @@ Note that in some states of the WeChat applet simulator, the display:flex will n
 微信小程序的模拟器上的canvas是不会随着页面的滚动而滚动的（实机测试没有这个问题）
 The canvas on the WeChat applet simulator does not scroll as the page scrolls (there is no such problem in the actual machine test)
 
-
-
-
-
+注意uniapp转微信小程序最好不要使用click方法使用tap（否则会导致向父组件传参出现异常）
+Note that it is best not to use the click method when transferring uniapp to WeChat applet, but tap (otherwise it will cause an exception when passing parameters to the parent component)
