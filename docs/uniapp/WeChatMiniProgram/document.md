@@ -41,3 +41,6 @@ The canvas on the WeChat applet simulator does not scroll as the page scrolls (t
 
 注意uniapp转微信小程序最好不要使用click方法使用tap（否则会导致向父组件传参出现异常）
 Note that it is best not to use the click method when transferring uniapp to WeChat applet, but tap (otherwise it will cause an exception when passing parameters to the parent component)
+
+注意uniapp转微信小程序如果父组件要向子组件传参注意props必须放在export default的最前部分，vue3版本必须放在除导入的内容之外的最前部分 否则会导致参数无法正常传递
+Note that when transferring from uniapp to WeChat applet, if the parent component needs to pass parameters to the child component, please note that props must be placed at the beginning of the export default. The vue3 version must be placed at the beginning except for the imported content, otherwise the parameters will not be passed normally.
