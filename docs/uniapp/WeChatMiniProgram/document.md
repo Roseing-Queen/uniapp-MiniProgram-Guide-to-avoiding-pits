@@ -44,3 +44,7 @@ Note that it is best not to use the click method when transferring uniapp to WeC
 
 注意uniapp转微信小程序如果父组件要向子组件传参注意props必须放在export default的最前部分，vue3版本必须放在除导入的内容之外的最前部分 否则会导致参数无法正常传递
 Note that when transferring from uniapp to WeChat applet, if the parent component needs to pass parameters to the child component, please note that props must be placed at the beginning of the export default. The vue3 version must be placed at the beginning except for the imported content, otherwise the parameters will not be passed normally.
+
+注意uniapp转微信小程序偶尔会出现css样式完全失效的情况 解决方案:关闭微信小程序开发工具（包含后台进程），在uniapp的开发工具中将预览终止，将已经编译的unpackage文件夹删除，然后重新编译（触发原因未知）。
+Note that converting uniapp to WeChat Mini Program may occasionally result in complete CSS style failure. Solution: Close WeChat Mini Program development tools (including background processes), terminate the preview in the uniapp development tools, delete the already compiled unpackage folder, and then recompile(The reason for the trigger is unknown).
+
