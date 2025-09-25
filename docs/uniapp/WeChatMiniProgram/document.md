@@ -48,3 +48,6 @@ Note that when transferring from uniapp to WeChat applet, if the parent componen
 注意uniapp转微信小程序偶尔会出现css样式完全失效的情况 解决方案:关闭微信小程序开发工具（包含后台进程），在uniapp的开发工具中将预览终止，将已经编译的unpackage文件夹删除，然后重新编译（触发原因未知）。
 Note that converting uniapp to WeChat Mini Program may occasionally result in complete CSS style failure. Solution: Close WeChat Mini Program development tools (including background processes), terminate the preview in the uniapp development tools, delete the already compiled unpackage folder, and then recompile(The reason for the trigger is unknown).
 
+注意微信小程序开发者工具如果运行不起来且后台进程无法关闭 建议直接卸载然后重装
+Note: If the WeChat Mini Program Developer Tool does not work and the background process cannot be closed, it is recommended to uninstall and reinstall it.
+
