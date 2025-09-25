@@ -54,3 +54,8 @@ Note: If the WeChat Mini Program Developer Tool does not work and the background
 注意uniapp和微信小程序均不支持以中文作为类名和变量名
 Please note that neither Uniapp nor WeChat Mini Programs support using Chinese as class names or variable names.
 
+uniapp转微信小程序报错如下(The error when converting uniapp to WeChat mini program is as follows)：
+![报错图片](./image/01.png "报错图片")
+解决方案：检查路径引入（大部分是路径引入出现问题）
+Solution: Check the path import (most of the time the issue is with the path import)
+
