@@ -51,3 +51,6 @@ Note that converting uniapp to WeChat Mini Program may occasionally result in co
 注意微信小程序开发者工具如果运行不起来且后台进程无法关闭 建议直接卸载然后重装
 Note: If the WeChat Mini Program Developer Tool does not work and the background process cannot be closed, it is recommended to uninstall and reinstall it.
 
+注意uniapp和微信小程序均不支持以中文作为类名和变量名
+Please note that neither Uniapp nor WeChat Mini Programs support using Chinese as class names or variable names.
+
